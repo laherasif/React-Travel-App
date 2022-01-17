@@ -8,8 +8,9 @@ function Map() {
     return (
         <div className={classes.mapcontainer}>
             <GoogleMapReact
-             bootstrapURLKeys={{key : "AIzaSyAvLWZqK0x_Gxf0l0iSuEn9tmbIJYBnzgw"}}
+             bootstrapURLKeys={{key : "AIzaSyBNrS8YrdtBltNZ12WZy6ThhgjMEbH574Y"}}
              defaultCenter={coordinates}
+             center={coordinates}
              defaultZoom={14}
              margin={[50 , 50 , 50 , 50]}
              options={''}
