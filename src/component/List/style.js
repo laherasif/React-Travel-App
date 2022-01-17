@@ -14,6 +14,5 @@ export default makeStyles((theme) => ({
     list:{
         height: '70vh',
         overflowY : 'scroll',
-        border:'1pt solid yellow'
     }
 }))
