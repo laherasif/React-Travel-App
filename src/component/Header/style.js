@@ -1,4 +1,4 @@
-import { alpha , makeStyles } from '@material-ui/core/styles';
+import { alpha, makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
 
@@ -21,8 +21,14 @@ export default makeStyles((theme) => ({
         width: '100%',
         [theme.breakpoints.up('sm')]: { marginLeft: theme.spacing(3), width: 'auto' },
     },
-    search_Icon:{
-        padding: theme.spacing(0, 2), height: '100%', position: 'absolute', pointerEvents: 'none', display: 'flex', alignItems: 'center', justifyContent: 'center',
+    search_Icon: {
+        padding: theme.spacing(0, 2),
+        height: '100%',
+        position: 'absolute',
+        pointerEvents: 'none',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
     },
 
     title: {
