@@ -19,7 +19,7 @@ function Header() {
 
                         {/* <Autocomplete> */}
                         <div className={classes.input_wrapper}>
-                            <div className="search_">
+                            <div className={classes.search_Icon}>
                                 <Search />
                             </div>
                             <InputBase placeholder="...search" />
