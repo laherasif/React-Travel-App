@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Map() {
+function List() {
     return (
         <div>
-            map
+            list 
         </div>
     )
 }
 
-export default Map
+export default List
