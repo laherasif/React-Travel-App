@@ -34,7 +34,7 @@ function List() {
             </FormControl>
 
             <Grid container spacing={3} className={classes.list} >
-                {place?.map((item, i) => (
+                {place.map((item, i) => (
                         <Grid item xs={12}>
                            <Typography>
                                {item.name}

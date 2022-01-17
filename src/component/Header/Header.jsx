@@ -1,6 +1,6 @@
-import { AppBar, Typography, InputLabel, InputBase, Toolbar, Box } from '@material-ui/core'
+import { AppBar, Typography, InputBase, Toolbar, Box } from '@material-ui/core'
 import { Search } from '@material-ui/icons'
-import { Autocomplete } from '@react-google-maps/api'
+// import { Autocomplete } from '@react-google-maps/api'
 import makeStyles from './style'
 function Header() {
 

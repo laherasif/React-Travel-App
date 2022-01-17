@@ -1,5 +1,5 @@
 import makeStyles from './style'
-import { Typography, Grid , } from '@material-ui/core'
+// import { Typography, Grid , } from '@material-ui/core'
 import  GoogleMapReact  from 'google-map-react'
 function Map() {
     const classes = makeStyles()
