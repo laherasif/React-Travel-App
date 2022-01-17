@@ -22,7 +22,7 @@ function Header() {
                             <div className={classes.search_Icon}>
                                 <Search />
                             </div>
-                            <InputBase placeholder="...search" />
+                            <InputBase placeholder="...search" classes={{ root : classes.inputRoot , input : classes.inputInput}} />
                         </div>
 
 
