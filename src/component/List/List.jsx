@@ -1,7 +1,16 @@
 import makeStyles from './style'
-import { Typography, FormControl, InputLabel, Select, MenuItem } from '@material-ui/core'
+import { Typography, FormControl, InputLabel, Select, MenuItem, Grid } from '@material-ui/core'
 function List() {
     const classes = makeStyles()
+
+    const place = [
+        { name: "laher" },
+        { name: "laher" },
+        { name: "laher" },
+        { name: "laher" },
+        { name: "laher" },
+    ]
+
     return (
         <div className={classes.Container}>
             <Typography variant="h4">
@@ -23,6 +32,17 @@ function List() {
                     <MenuItem>Resturent</MenuItem>
                 </Select>
             </FormControl>
+
+            <Grid container spacing={3} className={classes.list} >
+                {place?.map((item, i) => (
+                        <Grid item xs={12}>
+                           <Typography>
+                               {item.name}
+                           </Typography>
+                        </Grid>
+                ))}
+
+            </Grid>
         </div>
     )
 }

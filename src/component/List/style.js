@@ -8,6 +8,12 @@ export default makeStyles((theme) => ({
     formControl:{
         width: 120,
         margin: theme.spacing(1),
+        marginBottom:'30px'
 
+    },
+    list:{
+        height: '70vh',
+        overflow : 'auto',
+        border:'1pt solid yellow'
     }
 }))
