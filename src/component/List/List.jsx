@@ -1,12 +1,28 @@
 import makeStyles from './style'
-import { Grid , Typography  } from '@material-ui/core'
+import { Typography, FormControl, InputLabel, Select, MenuItem } from '@material-ui/core'
 function List() {
     const classes = makeStyles()
     return (
         <div className={classes.Container}>
-             <Typography>
-                 Resturant , Hotel & Attraction around you
-                 </Typography> 
+            <Typography variant="h4">
+                Resturant , Hotel & Attraction around you
+                 </Typography>
+            <FormControl className={classes.formControl}>
+                <InputLabel>Type</InputLabel>
+                <Select>
+                    <MenuItem>Resturent</MenuItem>
+                    <MenuItem>Resturent</MenuItem>
+                    <MenuItem>Resturent</MenuItem>
+                </Select>
+            </FormControl>
+            <FormControl className={classes.formControl}>
+                <InputLabel>Type</InputLabel>
+                <Select>
+                    <MenuItem>Resturent</MenuItem>
+                    <MenuItem>Resturent</MenuItem>
+                    <MenuItem>Resturent</MenuItem>
+                </Select>
+            </FormControl>
         </div>
     )
 }
